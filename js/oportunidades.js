@@ -147,7 +147,7 @@ $('document').ready(function() {
 	
 	/* Buscar Infos do Back (Mock). */				
 	$.ajax({
-		url: '../companies.json',
+		url: '/companies.json',
 		type: 'post',
 		contentType: 'application/json; charset=utf-8',
 		dataType: 'text json',
